@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(152, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    width: 50%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 28px;
+    margin-inline:20px
+}
+.form-box header{
+    text-align: center;
+    color: rgb(16, 16, 197);
+}
+.form-box form{
+    margin-block: 30px;
+}
+input{
+    width: 100%; /*all inputs have different lines */
+    padding: 18px 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgb(194, 187, 187);
+    font-size: 16px;
+    margin: 12px 0;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+}
+input[type="button"]
+{
+    margin-block: 24px;
+    background-color: rgb(46, 46, 222);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .4s;
+}
+input[type="button"]:hover{
+    background-color: darkblue;
+}
+.links{
+    display: flex;
+    justify-content: center;
+ }
+ .links a img{
+    height: 2rem;
+    width: 2rem;
+     margin-inline: 15px; /*this property make all elements margin in left and right */
+ }
+ .signup{
+    text-align: center;
+    margin-block:20px;/*give the margin top and botton*/
+ }
+ .signup a{
+    font-size: 18px;
+    font-weight: 500;
+    color: blue;
+ }
+ .signup a:hover{
+    color: darkblue;
+    text-decoration: underline;
+    text-underline-offset: 3.5px;/* when we hover in a than line a is down up 3.5 px*/
+ }
+ #nameField{
+    display: none;
+}
