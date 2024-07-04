@@ -5,4 +5,7 @@
            width: 1.8rem;
           margin-inline: 10px; /*this property make all elements margin in left and right */
            }
+        .form-box{
+        width:350px;
+    }
 }
