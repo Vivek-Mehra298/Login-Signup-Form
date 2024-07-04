@@ -1,0 +1,8 @@
+@media screen and (max-width:700px)
+{
+    .links a img{
+          height: 1.8rem;
+           width: 1.8rem;
+          margin-inline: 10px; /*this property make all elements margin in left and right */
+           }
+}
